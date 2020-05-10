@@ -15,3 +15,5 @@ request.onload = function () {
 };
 
 request.send();
+
+const app = document.getElementById('root')
