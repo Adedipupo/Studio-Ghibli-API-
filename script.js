@@ -7,8 +7,10 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
       data.forEach(movie => {
-          console.log(movie.title)
-          console.log(movie.description)
+          // Create a div with a card class
+          const card = document.createElement('div')
+          card.setAttribute('class', 'card'))
+          
       })
   } else {
     console.log("error");
