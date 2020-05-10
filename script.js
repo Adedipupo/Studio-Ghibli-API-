@@ -10,7 +10,10 @@ request.onload = function () {
           // Create a div with a card class
           const card = document.createElement('div')
           card.setAttribute('class', 'card'))
-          
+
+      // Create an h1 and set the text content to the film's title
+      const h1 = document.createElement('h1')
+      h1.textContent = movie.title
       })
   } else {
     console.log("error");
